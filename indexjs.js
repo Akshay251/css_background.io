@@ -4,7 +4,7 @@ var color2 = document.getElementById("color2");
 var body = document.getElementById("gradient");
 
 function change_background() {
-	body.style.background = "linear-gradient(to bottom right, " + color1.value + ", " + color2.value + ")";
+	body.style.background = "linear-gradient(to bottom right, " + color1.value + ", " + color2.value + ")no-repeat center center fixed";
 	css.textContent = "background: " + body.style.background + ";";
 }
 
